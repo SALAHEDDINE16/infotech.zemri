@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>store</title>
+    <link rel="icon" type="img/pnj" href="KJI.png">
+
+</head>
+<style>
+
+body{ 
+margin: 0;
+
+    }
+  .bak{
+background-image: linear-gradient(rgba(39, 39, 39, 0.75),rgba(39, 39, 39, 0.75)),url(pm.jpg);
+background-repeat: no-repeat;
+background-size:auto;
+height: 100vh;
+width: 100%;
+
+
+  }
+  
+ 
+.bon{
+  
+  
+    width: 85%;
+   margin: auto;
+    padding:  20px  ;
+    display: flex;
+    border-radius: 100px;
+    background-color: rgb(21, 21, 21);
+ opacity: 0.8;
+  
+  
+
+    align-items: center;
+    justify-content: space-between;
+    }
+.bon ul li{
+        width: 85%;
+margin: auto;
+padding: 10PX 0;
+font-size: larger;
+align-items: center;
+justify-content: space-between;
+
+position: relative;
+    }
+
+.bon ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+
+.bon ul li {
+    display: inline;
+    margin: 20px;
+    
+}
+.bon ul li::after {
+    content: '';
+        height: 5px;
+        width: 0;
+       background: #110070;
+       position: absolute;
+     left: 0;
+    bottom: 0;
+       transition: 0.2s;
+    }
+
+.bon ul li:hover::after{
+    width:100% ;
+}
+
+
+h1{
+color: rgb(255, 0, 0);
+text-transform: uppercase;
+}
+fieldset {
+    height: 200px;
+    padding-bottom: 150px;
+    width: 300px;
+    border-radius: 50px;
+   text-align: center;
+border: solid ;
+text-transform: uppercase;
+justify-content: space-between;
+
+}
+button{  
+
+}
+.vent{
+margin: 80px;
+justify-content: space-between;
+display: flex;
+}
+fieldset p{
+    color: white;
+} 
+.bop button{
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30%;
+    position: relative;
+    text-transform: uppercase;
+    color: azure;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.6;
+    background-color: rgb(255, 0, 0);
+}
+.boa button{
+border-radius: 20px;
+transform: translateY(100%);
+width: 100%;
+height: 20px;
+background-color: rgb(255, 0, 0);
+color: azure;
+cursor: pointer;
+opacity: 0.6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <div class="bak">
+    <div class="bon">
+    <h1>the store</h1>
+    <ul>
+  <li><a href="info.html">HOME</a></li>
+  <li><a href="">STORE</a></li>
+  <li><a href="C:\html\topil.github.io\reparation.html">REPARATION</a></li>
+  <li><a href="C:\html\topil.github.io\about us.html">ABOUT US</a></li> </ul> </div>
+
+  <div class="vent">   
+<fieldset > 
+     <button style="border-radius: 5px;" onclick="document.getElementById('tasus').src='PC 1 ASUS.jpg'"><</button>  
+   <a href="PC 1 ASUS.jpg "> <img src="PC 1 ASUS.jpg" alt="pc*" style="width: 200px;" id="tasus"></a>
+<button style="border-radius: 5px;" onclick="document.getElementById('tasus').src='PC2 ASUS.jpg'">></button>
+<p id="1.4">ASUS:<br>ram : 4 gb <br>disque dur : 1tb HDD </p>
+<div class="bop">
+<button onclick="document.getElementById('1.4').innerHTML='ASUS:<br>ram : 4 gb <br>disque dur : 1tb HDD <br> cpu : celeron <br> gpu : integree'" ondblclick="document.getElementById('1.4').innerHTML='ASUS:<br>ram : 4 gb <br>disque dur : 1tb HDD '"><span></span>plus de details</button> </div>
+<div class="boa"><a href="achetee.html"><button>achetee</button></div></a>
+
+
+</fieldset> 
+<fieldset > 
+    <button style="border-radius: 5px;" onclick="document.getElementById('tdell').src='PC DELL.jpg'"><</button> 
+    <a href="PC DELL3.jpg"><img src="PC DELL.jpg" alt="pc" style="width: 200px;" id="tdell" ></a>
+    <button style="border-radius: 5px;" onclick="document.getElementById('tdell').src='PC DELL4.jpg'">></button>
+    <p id="2.2">DELL g3:<br>ram : 16gb <br>disque dur : 1 tb ssd </p>
+    <div class="bop">
+    <button onclick="document.getElementById('2.2').innerHTML='DELL:<br>ram : 16gb <br>disque dur : 1 tb ssd cpu : i7 10em gen <br> gpu : nvidia gtx 1650 '" ondblclick="document.getElementById('2.2').innerHTML='DELL:<br>ram : 16gb <br> disque dur : 1 tb ssd'"> <span></span> plus de details</button> </div>
+    <div class="boa"><a href="achetee.html"><button>achetee</button></div></a>
+    
+
+</fieldset>
+   
+<fieldset id="3"> 
+    <button style="border-radius: 5px;" onclick="document.getElementById('tacer').src='PC2 ACER (2).jpg'"><</button> 
+    <a href="PC2 ACER (2).jpg"><img src="PC2 ACER (2).jpg" alt="pc" style="width:200px;" id="tacer"></a>
+    <button style="border-radius: 5px;" onclick="document.getElementById('tacer').src='PC3 ACER.jpg'  ">></button>
+<p id="3.34">acer nitro 5:<br>ram : 16gb <br>disque dur : 2 tb ssd </p>
+<div class="bop" >
+<button onclick="document.getElementById('3.34').innerHTML=' acer nitro 5:<br>ram : 16gb <br>disque dur : 2 tb ssd <br> cpu i7 9eme gen<br> gpu : nvidia gtx 1050 2gb <br> '" ondblclick="document.getElementById('3.34').innerHTML='acer nitro 5:<br>ram : 16gb <br>disque dur : 2 tb ssd '"><span></span>   plus de details</button> </div>
+<div class="boa" ><a href="achetee.html"><button>achetee</button></a></div>
+
+</fieldset>
+
+<fieldset > 
+  <button style="border-radius: 5px;" onclick="document.getElementById('t9acer').src='apple1.jpg'" > < </button> 
+  <a href="apple1.jpg"><img src="apple1.jpg" alt="pc" style="width:200px;" id="t9acer"></a>
+  <button style="border-radius: 5px;" onclick="document.getElementById('t9acer').src='apple2.jpg'  ">></button>
+<p id="3.348">macbook air:<br>ram : 8gb <br>disque dur : 256 go ssd </p>
+<div class="bop" >
+<button onclick="document.getElementById('3.348').innerHTML='macbok air  <br>ram : 8gb <br>disque dur : 256 go ssd <br> cpu i7 <br> cycle annees 2017 <br> '" ondblclick="document.getElementById('3.34').innerHTML='acer nitro 5:<br>ram : 16gb <br>disque dur : 2 tb ssd '"><span></span>   plus de details</button> </div>
+<div class="boa" ><a href="achetee.html"><button>achetee</button></a></div>
+
+</fieldset>
+  </div>
+
+
+   
+  
+
+
+</div>
+</body>
+
+</html>

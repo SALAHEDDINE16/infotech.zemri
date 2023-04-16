@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reparation</title>
+    <link rel="icon" type="img/pnj" href="KJI.png">
+</head>
+
+
+
+
+
+
+    <style>
+
+        body{ 
+        margin: 0;
+        
+            }
+          .bak{
+        background-image:linear-gradient(rgba(39, 39, 39, 0.75),rgba(39, 39, 39, 0.75)),url(02.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+        
+          }
+          
+        .bon{
+          
+          
+            width: 85%;
+           margin: auto;
+            padding:  20px  ;
+            display: flex;
+            border-radius: 100px;
+            background-color: rgb(21, 21, 21);
+         opacity: 0.8;
+          
+          
+        
+            align-items: center;
+            justify-content: space-between;
+            }
+        .bon ul li{
+                width: 85%;
+        margin: auto;
+        padding: 10PX 0;
+         font-size: larger;
+        align-items: center;
+        justify-content: space-between;
+        
+        position: relative;
+            }
+        
+        .bon ul li a{
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            text-transform: uppercase;
+        }
+        
+        .bon ul li {
+            display: inline;
+            margin: 20px;
+            
+        }
+        .bon ul li::after {
+            content: '';
+                height: 5px;
+                width: 0;
+               background: #110070;
+               position: absolute;
+             left: 0;
+            bottom: 0;
+               transition: 0.2s;
+            }
+        
+        .bon ul li:hover::after{
+            width:100% ;
+
+          }
+        
+        
+        h1{
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        }
+    
+        .wast {
+          width: 450px;
+          padding-left: 180px;
+          margin: 200px;
+          margin-left: 350px;
+color: azure;
+text-transform: uppercase;
+
+        }
+        .wast input{
+          width: 400px;
+          border: solid;
+          height: 40px;
+          background-color: rgb(241, 236, 236);
+        }
+        
+        .flo{
+          display: flex;
+         
+          
+        }
+         .btn{
+          margin-left: 10px;
+background-color: transparent;
+border-radius: 80%;
+cursor: pointer;
+transition: 0.2s;
+position: relative;
+z-index: 1;
+
+
+
+        }
+        .btn:before{
+transition: 1s;
+border-radius: 40px;
+position: absolute;
+top: 0;
+left: 50%;
+bottom: 0;
+right: 50%;
+content: '';
+opacity: 0;
+background-color: red;
+
+}
+
+
+.btn:hover::before{  
+  transition: 1s;
+top: 0;
+left: 0;
+right: 0;
+opacity: 1;
+background-color: rgb(255, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+   
+        
+        
+        </style>
+        <body>
+            <div class="bak">
+            <div class="bon">
+            <h1>REPARATION</h1>
+            <ul>
+          <li><a href="info.html">HOME</a></li>
+          <li><a href="C:\html\topil.github.io\store.html">STORE</a></li>
+          <li><a href="C:\html\topil.github.io\reparation.html">REPARATION</a></li>
+          <li><a href="C:\html\topil.github.io\about us.html">ABOUT US</a></li> </ul> </div>
+        
+
+<div class="wast">
+ <p>  ÉCRIVEZ VOTRE PROBLÈME ICI SI LE PROBLÈME EST SIMPLE NOUS VOUS ENVOI UN MESSANGE A VOTRE EMAIL SINON VOUS DEVER VENIR A NOTRE MAGASIN</p>
+  <div class="flo">
+ <input type="text"><button class="btn"><span></span> <img src="mp.jpeg" alt="" style="width: 40px; height: 40px; border-radius: 40px; transform: translateY(1px);"></button></div>
+ 
+</div>
+
+    </div>
+        </body>
+</html>
